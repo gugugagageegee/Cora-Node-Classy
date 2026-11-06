@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*.log
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Dataset
+data/*
+!data/.gitkeep
+
+# Model checkpoints
+checkpoints/*
+!checkpoints/.gitkeep
+*.pth
+*.pt
+
+# Generated results
+results/figures/*
+!results/figures/.gitkeep
+
+results/metrics/*
+!results/metrics/.gitkeep
+
+# System files
+.DS_Store
+Thumbs.db
